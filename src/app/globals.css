@@ -1,0 +1,11 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html,body{background:#05060A;color:#E8EAF2;height:100%}
+.glass{background:rgba(11,13,20,.72);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.08);border-radius:16px;box-shadow:0 10px 40px rgba(0,0,0,.45)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.65rem 1.1rem;border-radius:12px;font-weight:500;transition:transform .12s,box-shadow .2s,background .2s}
+.btn:active{transform:scale(.96)}
+.btn-accent{background:#7C6CFF;color:#fff}.btn-accent:hover{box-shadow:0 0 30px -4px rgba(124,108,255,.8)}
+.btn-ghost{border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03)}.btn-ghost:hover{background:rgba(124,108,255,.12)}
+:focus-visible{outline:2px solid #7C6CFF;outline-offset:2px;border-radius:8px}
+.skeleton{background:linear-gradient(90deg,#0B0D14,#161a26,#0B0D14);background-size:200% 100%;animation:sh 1.4s infinite;border-radius:10px}
+@keyframes sh{to{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}

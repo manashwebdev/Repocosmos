@@ -13,7 +13,7 @@ Folders become star clusters. Files become stars. A time slider replays how the 
 ![License](https://img.shields.io/badge/license-MIT-7C6CFF)
 
 <!-- Replace with your live link after deploying -->
-[**Live Demo**](https://your-app.vercel.app) · [Report a Bug](../../issues) · [Request a Feature](../../issues)
+[**Live Demo**](https://repocosmos.vercel.app/) · [Report a Bug](../../issues) · [Request a Feature](../../issues)
 
 ![RepoCosmos landing page](docs/landing.png)
 
